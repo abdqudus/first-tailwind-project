@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="/dist/output.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <title>Document</title>
+  </head>
+  <body class="relative bg-offWhite p-8 font-inter">
+    <div
+      id="home-page"
+      class="transition-all delay-150 duration-1000 ease-in-out large:max-h-screen"
+    >
+      <nav class="mb-10 flex justify-between">
+        <img
+          class="w-12 basis-14"
+          src="../public/assets/images/logo.svg"
+          alt="company logo"
+        />
+        <img
+          class="w-12 large:hidden"
+          id="hamburger"
+          src="../public/assets/images/icon-menu.svg"
+          alt="menu icon"
+        />
+        <div class="hidden justify-between gap-6 large:flex">
+          <h2
+            class="cursor-pointer text-lg font-semibold text-VeryDarkBlue hover:text-SoftRed"
+          >
+            Home
+          </h2>
+          <h2
+            class="cursor-pointer text-lg font-semibold text-VeryDarkBlue hover:text-SoftRed"
+          >
+            New
+          </h2>
+          <h2
+            class="cursor-pointer text-lg font-semibold text-VeryDarkBlue hover:text-SoftRed"
+          >
+            Popular
+          </h2>
+          <h2
+            class="cursor-pointer text-lg font-semibold text-VeryDarkBlue hover:text-SoftRed"
+          >
+            Trending
+          </h2>
+          <h2
+            class="cursor-pointer text-lg font-semibold text-VeryDarkBlue hover:text-SoftRed"
+          >
+            Categories
+          </h2>
+        </div>
+      </nav>
+      <div
+        class="flex grid-rows-rows flex-col gap-4 large:grid large:grid-cols-3"
+      >
+        <img
+          class="large:col-start-1 large:col-end-3 large:max-h-full large:w-full"
+          src="../public/assets/images/image-web-3-mobile.jpg"
+          alt=""
+        />
+        <h1
+          class="mt-4 text-5xl font-extrabold text-VeryDarkBlue large:row-start-2"
+        >
+          The Bright Future Of Web 3.0?
+        </h1>
+        <div>
+          <p
+            class="text-normal font-semibold leading-6 text-GrayishBlue mid:text-2xl large:text-normal"
+          >
+            We dive into the next evolution of the web that claims to put the
+            power of the platforms back into the hands of the people. But is it
+            really fulfilling its promise?
+          </p>
+          <p
+            class="mb-6 mt-4 w-3/5 cursor-pointer bg-SoftRed p-4 text-center text-sm font-semibold tracking-normal text-offWhite hover:bg-VeryDarkBlue hover:text-offWhite mid:text-xl large:text-normal"
+          >
+            READ MORE
+          </p>
+        </div>
+
+        <div
+          class="mb-8 cursor-pointer bg-VeryDarkBlue px-4 py-6 large:col-start-3 large:row-start-1 large:row-end-3"
+        >
+          <h2 class="mb-6 text-3xl font-bold text-softOrange">New</h2>
+          <h3
+            class="mid:max-large-text-2xl text-xl font-bold text-offWhite hover:text-softOrange"
+          >
+            Hydrogen VS Electric Cars
+          </h3>
+          <p class="mid:max-large-text-xl mb-8 mt-4 leading-6 text-GrayishBlue">
+            Will hydrogen-fueled cars ever catch up to EVs?
+          </p>
+          <hr class="mb-6" />
+          <h3
+            class="mid:max-large-text-2xl text-xl font-bold text-offWhite hover:text-softOrange"
+          >
+            The Downsides of AI Artistry
+          </h3>
+          <p class="mid:max-large-text-xl mb-8 mt-4 leading-6 text-GrayishBlue">
+            What are the possible adverse effects of on-demand AI image
+            generation?
+          </p>
+          <hr class="mb-6" />
+          <h3
+            class="mid:max-large-text-2xl text-xl font-bold text-offWhite hover:text-softOrange"
+          >
+            Is VC Funding Drying Up?
+          </h3>
+          <p class="mid:max-large-text-xl mb-8 mt-4 leading-6 text-GrayishBlue">
+            Private funding by VC firms is down 50% YOY. We take a look at what
+            that means.
+          </p>
+        </div>
+        <div class="grid grid-cols-2 gap-x-6 gap-y-2 mid:gap-y-2 large:mt-6">
+          <img
+            class="row-span-3 row-start-1 h-full w-full"
+            src="../public/assets/images/image-retro-pcs.jpg"
+            alt=""
+          />
+          <h2
+            class="cols-start-2 cols-end-3 small:max-large-text-5xl row-start-1 text-3xl font-bold text-GrayishBlue"
+          >
+            01
+          </h2>
+          <h2
+            class="mid:max-large-text-4xl row-start-2 cursor-pointer text-xl font-extrabold text-VeryDarkBlue hover:text-softOrange small:text-3xl"
+          >
+            Reviving Retro PCs
+          </h2>
+          <p
+            class="mid:max-large-text-3xl font-normal leading-tight text-GrayishBlue small:text-xl"
+          >
+            What happens when old PCs are given modern upgrades?
+          </p>
+        </div>
+        <div class="mt-6 grid grid-cols-2 gap-x-6 gap-y-2 mid:gap-y-2">
+          <img
+            class="row-span-3 row-start-1 h-full w-full"
+            src="../public/assets/images/image-top-laptops.jpg"
+            alt=""
+          />
+          <h2
+            class="cols-start-2 cols-end-3 small:max-large-text-5xl row-start-1 text-3xl font-bold text-GrayishBlue"
+          >
+            02
+          </h2>
+          <h2
+            class="mid:max-large-text-4xl row-start-2 cursor-pointer text-xl font-extrabold text-VeryDarkBlue hover:text-softOrange small:text-3xl"
+          >
+            Top 10 Laptops of 2022
+          </h2>
+          <p
+            class="mid:max-large-text-3xl font-normal leading-tight text-GrayishBlue small:text-xl"
+          >
+            Our best picks for various needs and budgets.
+          </p>
+        </div>
+        <div class="mt-6 grid grid-cols-2 gap-x-6 gap-y-2 mid:gap-y-2">
+          <img
+            class="row-span-3 row-start-1 h-full w-full"
+            src="../public/assets/images/image-gaming-growth.jpg"
+            alt=""
+          />
+          <h2
+            class="cols-start-2 cols-end-3 small:max-large-text-5xl row-start-1 text-3xl font-bold text-GrayishBlue"
+          >
+            03
+          </h2>
+          <h2
+            class="mid:max-large-text-4xl row-start-2 cursor-pointer text-xl font-extrabold text-VeryDarkBlue hover:text-softOrange small:text-3xl"
+          >
+            The Growth of Gaming
+          </h2>
+          <p
+            class="mid:max-large-text-3xl font-normal leading-tight text-GrayishBlue small:text-xl"
+          >
+            How the pandemic has sparked fresh opportunities.
+          </p>
+        </div>
+      </div>
+    </div>
+    <div
+      id="menu"
+      class="absolute right-0 top-0 flex h-0 w-0 translate-x-full flex-col gap-4 overflow-hidden bg-offWhite p-0 transition-all delay-150 duration-500 ease-in"
+    >
+      <img
+        class="mb-16 ml-auto w-12 self-start"
+        src="../public/assets/images/icon-menu-close.svg"
+        alt="close menu"
+        id="close-btn"
+      />
+      <h2 class="mb-8 mt-20 text-3xl font-semibold text-VeryDarkBlue">Home</h2>
+      <h2 class="mb-8 text-3xl font-semibold text-VeryDarkBlue">New</h2>
+      <h2 class="mb-8 text-3xl font-semibold text-VeryDarkBlue">Popular</h2>
+      <h2 class="mb-8 text-3xl font-semibold text-VeryDarkBlue">Trending</h2>
+      <h2 class="mb-8 text-3xl font-semibold text-VeryDarkBlue">Categories</h2>
+    </div>
+  </body>
+  <script src="index.js" type="module"></script>
+</html>
